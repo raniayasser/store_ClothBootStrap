@@ -1,0 +1,271 @@
+    .navbar-brand img {
+        width: 100px;
+        height: auto;
+    }
+    
+    .navbar-collapse {
+        margin-right: 600px;
+    }
+    
+    .navbar-collapse .nav-item {
+        margin-left: 30px;
+        font-size: 18px;
+    }
+    
+    .navbar-collapse .nav-item .nav-link:hover {
+        color: cornflowerblue;
+    }
+    
+    .navbar-collapse .nav-item .nav-link {
+        color: rgb(0, 0, 0);
+    }
+    
+    .navbar-light .navbar-nav .nav-link.about,
+    .navbar-light .navbar-nav .show>.nav-link {
+        color: #0d6efd;
+    }
+    
+    .header {
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        box-shadow: 1px 1px 1px #ccc;
+        margin-top: 50px;
+        /* margin-bottom: 30px; */
+    }
+    
+    .header h1 {
+        color: #000000;
+        margin-top: 15px;
+        margin-right: 150px;
+        font-size: 30px;
+        letter-spacing: 1.5px;
+    }
+    
+    .header img {
+        width: 470px;
+        height: 500px;
+        border-radius: 5px;
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+    
+    .p2 {
+        margin: 15px 0px;
+        line-height: 1.7;
+        color: rgb(182, 180, 180);
+    }
+    
+    .hr {
+        width: 7%;
+        border-radius: 5px;
+        margin-left: 180px;
+        margin-top: 80px;
+        color: rgb(0, 17, 255);
+    }
+    
+    .fa-facebook-f:hover {
+        color: cornflowerblue;
+    }
+    
+    .fa-twitter:hover {
+        color: cornflowerblue;
+    }
+    
+    .fa-google:hover {
+        color: cornflowerblue;
+    }
+    
+    .fa-instagram:hover {
+        color: cornflowerblue;
+    }
+    
+    .fa-linkedin:hover {
+        color: cornflowerblue;
+    }
+    
+    .fa-github:hover {
+        color: cornflowerblue;
+    }
+    
+    footer a {
+        text-decoration: none;
+    }
+    
+    footer h6 {
+        color: rgb(62, 62, 62);
+    }
+    
+    .cards {
+        background-color: rgb(245, 242, 242);
+        width: 100%;
+        padding: 20px 170px 80px;
+        text-align: center;
+    }
+    
+    .cards .card {
+        margin-left: 10px;
+        padding-top: 5px;
+    }
+    
+    .cards img:hover {
+        transform: translate(2px, 2px);
+    }
+    
+    .cards .img1 {
+        height: 265px;
+    }
+    
+    .cards h2 {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .details:hover {
+        color: cornflowerblue;
+    }
+    
+    .main-title:hover {
+        transform: skew(5deg);
+    }
+    
+    .main-title {
+        text-transform: uppercase;
+        margin: 0 auto 80px;
+        border: 2px solid black;
+        padding: 10px 20px;
+        font-size: 30px;
+        width: fit-content;
+        position: relative;
+        z-index: 1;
+    }
+    /* ----team --------------------- */
+    /* FontAwesome for working BootSnippet :> */
+    
+    @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+    #team {
+        background: #eee !important;
+    }
+    
+    .btn-primary:hover,
+    .btn-primary:focus {
+        background-color: cornflowerblue;
+        border-color: cornflowerblue;
+        box-shadow: none;
+        outline: none;
+    }
+    
+    .btn-primary {
+        color: #fff;
+        background-color: cornflowerblue;
+        border-color: cornflowerblue;
+    }
+    
+    section {
+        padding: 60px 0;
+    }
+    
+    section .section-title {
+        text-align: center;
+        color: cornflowerblue;
+        margin-bottom: 50px;
+        text-transform: uppercase;
+    }
+    
+    #team .card {
+        border: none;
+        background: #ffffff;
+    }
+    
+    .image-flip:hover .backside,
+    .image-flip.hover .backside {
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+        border-radius: .25rem;
+    }
+    
+    .image-flip:hover .frontside,
+    .image-flip.hover .frontside {
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+    
+    .mainflip {
+        -webkit-transition: 1s;
+        -webkit-transform-style: preserve-3d;
+        -ms-transition: 1s;
+        -moz-transition: 1s;
+        -moz-transform: perspective(1000px);
+        -moz-transform-style: preserve-3d;
+        -ms-transform-style: preserve-3d;
+        transition: 1s;
+        transform-style: preserve-3d;
+        position: relative;
+    }
+    
+    .frontside {
+        position: relative;
+        -webkit-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        z-index: 2;
+        margin-bottom: 30px;
+    }
+    
+    .backside {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: white;
+        -webkit-transform: rotateY(-180deg);
+        -moz-transform: rotateY(-180deg);
+        -o-transform: rotateY(-180deg);
+        -ms-transform: rotateY(-180deg);
+        transform: rotateY(-180deg);
+        -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+        -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+        box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    }
+    
+    .frontside,
+    .backside {
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-transition: 1s;
+        -webkit-transform-style: preserve-3d;
+        -moz-transition: 1s;
+        -moz-transform-style: preserve-3d;
+        -o-transition: 1s;
+        -o-transform-style: preserve-3d;
+        -ms-transition: 1s;
+        -ms-transform-style: preserve-3d;
+        transition: 1s;
+        transform-style: preserve-3d;
+    }
+    
+    .frontside .card,
+    .backside .card {
+        min-height: 312px;
+    }
+    
+    .backside .card a {
+        font-size: 18px;
+        color: cornflowerblue !important;
+    }
+    
+    .frontside .card .card-title,
+    .backside .card .card-title {
+        color: cornflowerblue !important;
+    }
+    
+    .frontside .card .card-body img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+    }

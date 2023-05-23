@@ -1,0 +1,158 @@
+.navbar-brand img {
+    width: 100px;
+    height: auto;
+}
+
+.navbar-collapse {
+    margin-right: 600px;
+}
+
+.navbar-collapse .nav-item {
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.navbar-collapse .nav-item .nav-link:hover {
+    color: cornflowerblue;
+}
+
+.navbar-collapse .nav-item .nav-link {
+    color: rgb(0, 0, 0);
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #0d6efd;
+}
+
+.carousel {
+    width: 400px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.carousel h2 {
+    margin-bottom: 30px;
+}
+
+.main-title:hover {
+    transform: skew(5deg);
+}
+
+.main-title {
+    text-transform: uppercase;
+    margin: 0 auto 80px;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 30px;
+    width: fit-content;
+    position: relative;
+    z-index: 1;
+}
+
+.header {
+    height: 100%;
+    background-color: cornflowerblue;
+    text-align: center;
+    /* margin-bottom: 30px; */
+}
+
+.header h1 {
+    color: #ffffff;
+    margin-top: 200px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1.5px;
+}
+
+.header p {
+    color: #dcdbdb;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.header img {
+    width: 500px;
+    height: 550px;
+    border-radius: 30%;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.header .btn-success {
+    background-color: rgb(11, 175, 11);
+    width: 150px;
+    height: 40px;
+    margin-top: 50px;
+    font-size: large;
+    transition: .1s;
+    border-color: rgb(11, 175, 11);
+}
+
+.header .btn-success:hover {
+    background-color: green;
+    transform: translate(1px, 1px);
+    border-color: green;
+}
+
+.cards {
+    background-color: rgb(245, 242, 242);
+    width: 100%;
+    padding: 20px 170px 80px;
+    text-align: center;
+}
+
+.cards .card {
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+.cards img:hover {
+    transform: translate(2px, 2px);
+}
+
+.cards .img1 {
+    height: 265px;
+}
+
+.cards h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.details:hover {
+    color: cornflowerblue;
+}
+
+.fa-facebook-f:hover {
+    color: cornflowerblue;
+}
+
+.fa-twitter:hover {
+    color: cornflowerblue;
+}
+
+.fa-google:hover {
+    color: cornflowerblue;
+}
+
+.fa-instagram:hover {
+    color: cornflowerblue;
+}
+
+.fa-linkedin:hover {
+    color: cornflowerblue;
+}
+
+.fa-github:hover {
+    color: cornflowerblue;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer h6 {
+    color: rgb(62, 62, 62);
+}

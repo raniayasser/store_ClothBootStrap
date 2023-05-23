@@ -1,0 +1,66 @@
+.navbar-brand img {
+    width: 100px;
+    height: auto;
+}
+
+.navbar-collapse {
+    margin-right: 600px;
+}
+
+.navbar-collapse .nav-item {
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.navbar-collapse .nav-item .nav-link:hover {
+    color: cornflowerblue;
+}
+
+.navbar-collapse .nav-item .nav-link {
+    color: rgb(0, 0, 0);
+}
+
+.navbar-light .navbar-nav .nav-link.help,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #0d6efd;
+}
+
+.fa-facebook-f:hover {
+    color: cornflowerblue;
+}
+
+.fa-twitter:hover {
+    color: cornflowerblue;
+}
+
+.fa-google:hover {
+    color: cornflowerblue;
+}
+
+.fa-instagram:hover {
+    color: cornflowerblue;
+}
+
+.fa-linkedin:hover {
+    color: cornflowerblue;
+}
+
+.fa-github:hover {
+    color: cornflowerblue;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer h6 {
+    color: rgb(62, 62, 62);
+}
+
+.accordion {
+    margin-bottom: 100px;
+}
+
+footer {
+    box-shadow: 1px 1px 3px #ccc;
+}

@@ -1,0 +1,96 @@
+.navbar-brand img {
+    width: 100px;
+    height: auto;
+}
+
+.navbar-collapse {
+    margin-right: 600px;
+}
+
+.navbar-collapse .nav-item {
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.navbar-collapse .nav-item .nav-link:hover {
+    color: cornflowerblue;
+}
+
+.navbar-collapse .nav-item .nav-link {
+    color: rgb(0, 0, 0);
+}
+
+.navbar-light .navbar-nav .nav-link.cont,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #0d6efd;
+}
+
+form {
+    box-shadow: 0px 1px 3px #ccc;
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.main-title:hover {
+    transform: skew(5deg);
+}
+
+.main-title {
+    text-transform: uppercase;
+    margin: 0 auto 50px;
+    margin-top: 30px;
+    font-size: 30px;
+    width: fit-content;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 1px 3px#ccc;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    padding-top: 5px;
+    background-color: rgb(68, 128, 239);
+    color: white;
+}
+
+form button:hover {
+    transform: translate(2px, 2px);
+}
+
+.fa-facebook-f:hover {
+    color: cornflowerblue;
+}
+
+.fa-twitter:hover {
+    color: cornflowerblue;
+}
+
+.fa-google:hover {
+    color: cornflowerblue;
+}
+
+.fa-instagram:hover {
+    color: cornflowerblue;
+}
+
+.fa-linkedin:hover {
+    color: cornflowerblue;
+}
+
+.fa-github:hover {
+    color: cornflowerblue;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer h6 {
+    color: rgb(62, 62, 62);
+}
+
+footer {
+    box-shadow: 0px 1px 3px#ccc;
+}
